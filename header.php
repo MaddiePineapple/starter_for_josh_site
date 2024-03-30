@@ -40,7 +40,7 @@
 
 <body>
 
-    <header class="container-fluid bg1">
+    <header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
         <div class="container">
 
 
@@ -70,9 +70,10 @@
 
             </nav>
 
-            <div class="tag">
-                <h1>Games Design for the future</h1>
-            </div>
+            <div class="tag"><!-- div that holds the content in the middle of the page-->
+                <h1><?php the_field('maintagline'); ?></h1>
+            </div><!-- container-->
+
 
         </div> <!-- container -->
         <?php wp_head(); ?> <!-- very important that this code is added--> 
