@@ -72,10 +72,10 @@
                 </div>
             </nav>
 
-            <div class="small-page-tag">
-                <h1 class="smallpage-title">Projects</h1>
-            </div>
+            <div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
+                <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
+            </div>              
+            </div><!-- container-->
 
-        </div> <!-- container -->
         <?php wp_head(); ?> <!-- very important that this code is added--> 
     </header> <!-- container fluid -->
