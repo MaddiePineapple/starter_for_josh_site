@@ -40,7 +40,7 @@
 
 <body>
 
-    <header class="container-fluid smallpage-bg">
+    <header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
         <div class="container">
 
 
