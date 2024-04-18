@@ -23,6 +23,10 @@ Version: 1
     letter-spacing: -2px;
 }
 
+.footer-brand {
+    padding-top: 5%;
+}
+
 .orange{
     color:#FDA118;
 }
