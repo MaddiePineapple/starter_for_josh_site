@@ -34,7 +34,7 @@
     ?>
 </title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
-<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico"> 
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 
 
